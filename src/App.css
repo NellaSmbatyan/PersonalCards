@@ -1,0 +1,38 @@
+
+.App {
+  text-align: center;
+}
+
+
+.person{
+  width: 400px;
+  height: 250px;
+  background-color: rgb(14, 14, 14);
+  margin-left: 70px;
+ margin-top: 25px;
+  border-radius: 15px;
+  box-shadow: 10px black;
+  
+}
+.conteiner {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 70px;
+  row-gap: 2em
+}
+
+.conteiner h1 {
+  font-weight: 700;
+  color: blue;
+}
+.conteiner p {
+  font-weight: 600;
+  color: blue;
+}
+
+.header{
+  text-align: center;
+  font-weight: 900;
+}
+
